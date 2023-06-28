@@ -1,0 +1,449 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/hhf232/Projects/MinorPersonalProjects/c/bbs/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ACTION_BUFSIZE	client.c	/^    ACTION_BUFSIZE = 32,$/;"	e	enum:__anon4f09d8d50103	file:
+BYTE_FIELDS_LEN	protocol.c	/^    BYTE_FIELDS_LEN = 2,$/;"	e	enum:__anon35d14ca80103	file:
+BYTE_POT	protocol.c	/^    BYTE_POT = 256,$/;"	e	enum:__anon35d14ca80103	file:
+CONSTANTS_SENTRY	constants.h	/^#define CONSTANTS_SENTRY$/;"	d
+DATABASE_SENTRY	database.h	/^#define DATABASE_SENTRY$/;"	d
+DEBUG	test.c	/^#define DEBUG$/;"	d	file:
+DEBUG_SENTRY	debug.h	/^#define DEBUG_SENTRY$/;"	d
+DELIM	protocol.c	/^#define DELIM /;"	d	file:
+DOWNLOAD_PLACK_NUM_BUFSIZE	client.c	/^    DOWNLOAD_PLACK_NUM_BUFSIZE = 128,$/;"	e	enum:__anon4f09d8d50103	file:
+DOWNLOAD_PROGRESS_BAR_VAL	client.c	/^#define DOWNLOAD_PROGRESS_BAR_VAL /;"	d	file:
+ENDC	protocol.c	/^#define ENDC /;"	d	file:
+EPSILON	client.c	/^#define EPSILON /;"	d	file:
+HEADER_LEN	protocol.c	/^#define HEADER_LEN /;"	d	file:
+INBUFSIZE	server.c	/^    INBUFSIZE = 128$/;"	e	enum:__anon0e7c93ed0103	file:
+INIT_SESS_ARR_SIZE	server.c	/^    INIT_SESS_ARR_SIZE = 32,$/;"	e	enum:__anon0e7c93ed0103	file:
+LISTEN_QLEN	server.c	/^    LISTEN_QLEN = 16,$/;"	e	enum:__anon0e7c93ed0103	file:
+LONG_MAX_DIGITS	constants.h	/^    LONG_MAX_DIGITS = 20 \/\/ overkill$/;"	e	enum:__anon3993fc380103
+MAKE_TRY_GET_BYTE_FIELD	protocol.c	/^#define MAKE_TRY_GET_BYTE_FIELD(/;"	d	file:
+MAKE_TRY_GET_BYTE_FIELD	protocol.c	/^MAKE_TRY_GET_BYTE_FIELD(role, NUM_ROLES)$/;"	f	file:
+MAKE_TRY_PARSE_BYTE_FIELD	protocol.c	/^#define MAKE_TRY_PARSE_BYTE_FIELD(/;"	d	file:
+MAX_DESCR_LEN	constants.h	/^    MAX_DESCR_LEN = 128,$/;"	e	enum:__anon3993fc380103
+MAX_DIGITS	protocol.c	/^    MAX_DIGITS = 32, \/\/ overkill$/;"	e	enum:__anon35d14ca80103	file:
+MAX_FILENAME_LEN	constants.h	/^    MAX_FILENAME_LEN = 64,$/;"	e	enum:__anon3993fc380103
+MAX_FILE_LEN_FOR_DISPLAY	debug.c	/^    MAX_FILE_LEN_FOR_DISPLAY = 65535$/;"	e	enum:__anon0847a67d0103	file:
+MAX_LOGIN_ITEM_LEN	constants.h	/^    MAX_LOGIN_ITEM_LEN = 64,$/;"	e	enum:__anon3993fc380103
+MAX_MSG_TOTAL_WORD_LEN	protocol.c	/^    MAX_MSG_TOTAL_WORD_LEN = 131071,$/;"	e	enum:__anon35d14ca80103	file:
+MAX_MSG_WORD_LEN	protocol.c	/^    MAX_MSG_WORD_LEN = MAX_WORD_LEN, \/\/ < 256**WORD_LEN_BYTES$/;"	e	enum:__anon35d14ca80103	file:
+MAX_NOTE_LEN	constants.h	/^    MAX_NOTE_LEN = 256,$/;"	e	enum:__anon3993fc380103
+MAX_USER_CNT	constants.h	/^    MAX_USER_CNT = 32,$/;"	e	enum:__anon3993fc380103
+MAX_USER_TYPE_LEN	types.h	/^    MAX_USER_TYPE_LEN = 10$/;"	e	enum:__anon078763300103
+MAX_WORD_CNT	protocol.c	/^    MAX_WORD_CNT = 255, \/\/ 256**WORD_CNT_BYTES - 1$/;"	e	enum:__anon35d14ca80103	file:
+MAX_WORD_LEN	constants.h	/^    MAX_WORD_LEN = 4096, \/\/ must be >= user_cnt * (login_len+1), see client post msg$/;"	e	enum:__anon3993fc380103
+MESSAGE_BASE_CAP	protocol.c	/^    MESSAGE_BASE_CAP = 64,$/;"	e	enum:__anon35d14ca80103	file:
+METADATA_BASE_DESCR_BUFSIZE	database.c	/^    METADATA_BASE_DESCR_BUFSIZE = 32,$/;"	e	enum:__anon115076ab0103	file:
+METADATA_BASE_LOGIN_ITEM_CAP	database.c	/^    METADATA_BASE_LOGIN_ITEM_CAP = 16,$/;"	e	enum:__anon115076ab0103	file:
+METADATA_BASE_NAME_BUFSIZE	database.c	/^    METADATA_BASE_NAME_BUFSIZE = 16,$/;"	e	enum:__anon115076ab0103	file:
+METADATA_BASE_USER_CAP	database.c	/^    METADATA_BASE_USER_CAP = 4,$/;"	e	enum:__anon115076ab0103	file:
+METADATA_MAX_DESCR_LEN	database.c	/^    METADATA_MAX_DESCR_LEN = MAX_DESCR_LEN,$/;"	e	enum:__anon115076ab0103	file:
+METADATA_MAX_LOGIN_ITEM_LEN	database.c	/^    METADATA_MAX_LOGIN_ITEM_LEN = MAX_LOGIN_ITEM_LEN,$/;"	e	enum:__anon115076ab0103	file:
+METADATA_MAX_NAME_LEN	database.c	/^    METADATA_MAX_NAME_LEN = MAX_FILENAME_LEN,$/;"	e	enum:__anon115076ab0103	file:
+METADATA_MAX_USER_CNT	database.c	/^    METADATA_MAX_USER_CNT = MAX_USER_CNT,$/;"	e	enum:__anon115076ab0103	file:
+METAFILES_BASE_CAP	database.c	/^    METAFILES_BASE_CAP = 32,$/;"	e	enum:__anon115076ab0103	file:
+METAFILES_MAX_CNT	database.c	/^    METAFILES_MAX_CNT = 2048,$/;"	e	enum:__anon115076ab0103	file:
+METAFILE_EXT_LEN	database.c	/^    METAFILE_EXT_LEN = sizeof(metafile_extension)-1$/;"	e	enum:__anon115076ab0103	file:
+NUM_ADMIN_ACTIONS	client.c	/^#define NUM_ADMIN_ACTIONS /;"	d	file:
+NUM_POSTER_ACTIONS	client.c	/^#define NUM_POSTER_ACTIONS /;"	d	file:
+NUM_REG_ACTIONS	client.c	/^#define NUM_REG_ACTIONS /;"	d	file:
+NUM_ROLES	protocol.c	/^#define NUM_ROLES /;"	d	file:
+NUM_TYPES	protocol.c	/^#define NUM_TYPES /;"	d	file:
+PROTOCOL_SENTRY	protocol.h	/^#define PROTOCOL_SENTRY$/;"	d
+SERV_AWAIT_TIMEOUT_SEC	client.c	/^    SERV_AWAIT_TIMEOUT_SEC = 12$/;"	e	enum:__anon4f09d8d50103	file:
+SERV_READ_BUFSIZE	client.c	/^    SERV_READ_BUFSIZE = 2048,$/;"	e	enum:__anon4f09d8d50103	file:
+TYPES_SENTRY	types.h	/^#define TYPES_SENTRY$/;"	d
+USERS_BASE_CAP	database.c	/^    USERS_BASE_CAP = 64,$/;"	e	enum:__anon115076ab0103	file:
+USERS_MAX_CNT	database.c	/^    USERS_MAX_CNT = 4096,$/;"	e	enum:__anon115076ab0103	file:
+USER_TYPES_CNT	types.h	/^#define USER_TYPES_CNT /;"	d
+UTILS_SENTRY	utils.h	/^#define UTILS_SENTRY$/;"	d
+WORD_BASE_CAP	protocol.c	/^    WORD_BASE_CAP = 16,$/;"	e	enum:__anon35d14ca80103	file:
+WORD_BUFSIZE	database.c	/^    WORD_BUFSIZE = 256,$/;"	e	enum:__anon115076ab0103	file:
+WORD_CNT_BYTES	protocol.c	/^    WORD_CNT_BYTES = 1,$/;"	e	enum:__anon35d14ca80103	file:
+WORD_LEN_BYTES	protocol.c	/^    WORD_LEN_BYTES = 2,$/;"	e	enum:__anon35d14ca80103	file:
+WORD_SEP	database.c	/^#define WORD_SEP /;"	d	file:
+__anon078763300103	types.h	/^enum {$/;"	g
+__anon0847a67d0103	debug.c	/^enum {$/;"	g	file:
+__anon0e7c93ed0103	server.c	/^enum { $/;"	g	file:
+__anon115076ab0103	database.c	/^enum {$/;"	g	file:
+__anon35d14ca80103	protocol.c	/^enum { $/;"	g	file:
+__anon3993fc380103	constants.h	/^enum {$/;"	g
+__anon4f09d8d50103	client.c	/^enum {$/;"	g	file:
+add_file_result	database.h	/^} add_file_result;$/;"	t	typeref:struct:add_file_result_tag
+add_file_result_tag	database.h	/^typedef struct add_file_result_tag {$/;"	s
+add_string_to_bytestr_array	utils.c	/^int add_string_to_bytestr_array(byte_arr **arr, const char *str, size_t len,$/;"	f	typeref:typename:int
+add_string_to_string_array	utils.c	/^int add_string_to_string_array(char ***arr, const char *str, $/;"	f	typeref:typename:int
+add_user	client.c	/^    add_user,$/;"	e	enum:client_action_tag	file:
+add_user_dialogue	client.c	/^perform_action_result add_user_dialogue()$/;"	f	typeref:typename:perform_action_result
+admin_action_names	client.c	/^static const char *admin_action_names[NUM_ADMIN_ACTIONS] = {$/;"	v	typeref:typename:const char * []	file:
+admin_actions	client.c	/^static const client_action admin_actions[] = {$/;"	v	typeref:typename:const client_action[]	file:
+admin_mark	types.c	/^const char admin_mark[] = "*";$/;"	v	typeref:typename:const char[]
+all_users_symbol	constants.h	/^static const char all_users_symbol[] = "*";$/;"	v	typeref:typename:const char[]
+ask_for_action	client.c	/^int ask_for_action()$/;"	f	typeref:typename:int
+ask_for_credential_item	client.c	/^int ask_for_credential_item(p_message *msg, const char *dialogue)$/;"	f	typeref:typename:int
+asr_disconnected	client.c	/^    asr_disconnected$/;"	e	enum:await_server_msg_result_tag	file:
+asr_incomplete	client.c	/^    asr_incomplete, $/;"	e	enum:await_server_msg_result_tag	file:
+asr_ok	client.c	/^    asr_ok, $/;"	e	enum:await_server_msg_result_tag	file:
+asr_process_err	client.c	/^    asr_process_err, $/;"	e	enum:await_server_msg_result_tag	file:
+asr_read_err	client.c	/^    asr_read_err, $/;"	e	enum:await_server_msg_result_tag	file:
+asr_timeout	client.c	/^    asr_timeout,$/;"	e	enum:await_server_msg_result_tag	file:
+await_server_message	client.c	/^int await_server_message()$/;"	f	typeref:typename:int
+await_server_msg_result	client.c	/^} await_server_msg_result;$/;"	t	typeref:enum:await_server_msg_result_tag	file:
+await_server_msg_result_tag	client.c	/^typedef enum await_server_msg_result_tag {$/;"	g	file:
+byte_arr	utils.h	/^} byte_arr;$/;"	t	typeref:struct:byte_arr_tag
+byte_arr_tag	utils.h	/^typedef struct byte_arr_tag {$/;"	s
+cap	database.h	/^    size_t cnt, cap;$/;"	m	struct:file_metadata_tag	typeref:typename:size_t
+cap	protocol.h	/^    size_t cnt, cap;$/;"	m	struct:p_message_tag	typeref:typename:size_t
+check_file_existence	client.c	/^int check_file_existence(const char *filename)$/;"	f	typeref:typename:int
+check_spc	utils.c	/^int check_spc(const char *str)$/;"	f	typeref:typename:int
+client_action	client.c	/^} client_action;$/;"	t	typeref:enum:client_action_tag	file:
+client_action_tag	client.c	/^typedef enum client_action_tag {$/;"	g	file:
+cnt	database.h	/^    size_t cnt, cap;$/;"	m	struct:file_metadata_tag	typeref:typename:size_t
+cnt	protocol.h	/^    size_t cnt, cap;$/;"	m	struct:p_message_tag	typeref:typename:size_t
+concat_strings	utils.c	/^char *concat_strings(const char *str, ...)$/;"	f	typeref:typename:char *
+connect_to_server	client.c	/^int connect_to_server(struct sockaddr_in serv_addr)$/;"	f	typeref:typename:int
+construct_num_packets_response	server.c	/^p_message *construct_num_packets_response(session *sess, const char *filename)$/;"	f	typeref:typename:p_message *
+create_empty_message	protocol.c	/^static p_message *create_empty_message()$/;"	f	typeref:typename:p_message *	file:
+create_metadata	database.c	/^static file_metadata *create_metadata(int is_complete)$/;"	f	typeref:typename:file_metadata *	file:
+create_user_data	database.c	/^static user_data *create_user_data(user_type utype)$/;"	f	typeref:typename:user_data *	file:
+cur_fd	client.c	/^static int cur_fd = -1;$/;"	v	typeref:typename:int	file:
+cur_post_fd	server.c	/^    int cur_post_fd;$/;"	m	struct:session_tag	typeref:typename:int	file:
+cur_post_meta	server.c	/^    file_metadata *cur_post_meta;$/;"	m	struct:session_tag	typeref:typename:file_metadata *	file:
+cur_query_fd	server.c	/^    int cur_query_fd;$/;"	m	struct:session_tag	typeref:typename:int	file:
+cur_word	protocol.h	/^    char *cur_word;$/;"	m	struct:p_message_reader_tag	typeref:typename:char *
+daemonize_self	server.c	/^void daemonize_self()$/;"	f	typeref:typename:void
+data_path	database.h	/^    char *data_path;$/;"	m	struct:database_tag	typeref:typename:char *
+data_rel_path	database.c	/^static const char data_rel_path[] = "\/data\/";$/;"	v	typeref:typename:const char[]	file:
+database	database.h	/^} database;$/;"	t	typeref:struct:database_tag
+database_tag	database.h	/^typedef struct database_tag {$/;"	s
+db	server.c	/^static database db = {0};$/;"	v	typeref:typename:database	file:
+db_add_user	database.c	/^db_modification_result db_add_user(database* db, const char *usernm, const char *passwd, user_ty/;"	f	typeref:typename:db_modification_result
+db_deinit	database.c	/^void db_deinit(database* db)$/;"	f	typeref:typename:void
+db_delete_meta	database.c	/^int db_delete_meta(database *db, file_metadata *fmd)$/;"	f	typeref:typename:int
+db_file_is_available_to_user	database.c	/^int db_file_is_available_to_user(file_metadata *fmd, const char *username, user_type utype)$/;"	f	typeref:typename:int
+db_init	database.c	/^int db_init(database* db, const char *path)$/;"	f	typeref:typename:int
+db_lookup_file	database.c	/^file_lookup_result db_lookup_file(database *db, const char *filename, $/;"	f	typeref:typename:file_lookup_result
+db_modification_result	database.h	/^} db_modification_result;$/;"	t	typeref:enum:db_modification_result_tag
+db_modification_result_tag	database.h	/^typedef enum db_modification_result_tag {$/;"	g
+db_read_and_rm_top_note	database.c	/^read_note_result db_read_and_rm_top_note(database *db)$/;"	f	typeref:typename:read_note_result
+db_store_note	database.c	/^void db_store_note(database *db, const char *username, byte_arr note)$/;"	f	typeref:typename:void
+db_try_add_file	database.c	/^add_file_result db_try_add_file(database *db, const char *filename, const char *descr,$/;"	f	typeref:typename:add_file_result
+db_try_delete_file	database.c	/^db_modification_result db_try_delete_file(database *db, const char *filename)$/;"	f	typeref:typename:db_modification_result
+db_try_edit_metadata	database.c	/^db_modification_result db_try_edit_metadata(database *db,$/;"	f	typeref:typename:db_modification_result
+db_try_match_credentials	database.c	/^user_type db_try_match_credentials(database* db, const char *usernm, const char *passwd)$/;"	f	typeref:typename:user_type
+db_user_exists	database.c	/^int db_user_exists(database* db, const char *usernm)$/;"	f	typeref:typename:int
+debug_cat_file	debug.c	/^void debug_cat_file(const char *filename)$/;"	f	typeref:typename:void
+debug_log_p_message	debug.c	/^void debug_log_p_message(p_message *msg)$/;"	f	typeref:typename:void
+debug_log_p_role	debug.c	/^void debug_log_p_role(p_role role)$/;"	f	typeref:typename:void
+debug_log_p_type	debug.c	/^void debug_log_p_type(p_type type)$/;"	f	typeref:typename:void
+debug_print_buf	debug.c	/^void debug_print_buf(const char *buf, size_t len)$/;"	f	typeref:typename:void
+debug_printf	debug.c	/^void debug_printf(const char *format, ...)$/;"	f	typeref:typename:void
+debug_printf_err	debug.c	/^void debug_printf_err(const char *format, ...)$/;"	f	typeref:typename:void
+delete_file	client.c	/^    delete_file$/;"	e	enum:client_action_tag	file:
+delete_file_dialogue	client.c	/^perform_action_result delete_file_dialogue()$/;"	f	typeref:typename:perform_action_result
+descr	database.h	/^    char *descr;$/;"	m	struct:file_metadata_tag	typeref:typename:char *
+disable_echo	client.c	/^void disable_echo(struct termios *bkp_ts)$/;"	f	typeref:typename:void
+discard_stdin	utils.c	/^void discard_stdin()$/;"	f	typeref:typename:void
+dmod_err	database.h	/^    dmod_ok, dmod_fail, dmod_err$/;"	e	enum:db_modification_result_tag
+dmod_fail	database.h	/^    dmod_ok, dmod_fail, dmod_err$/;"	e	enum:db_modification_result_tag
+dmod_ok	database.h	/^    dmod_ok, dmod_fail, dmod_err$/;"	e	enum:db_modification_result_tag
+draw_load_progress_bar	client.c	/^int draw_load_progress_bar(const char *prefix,$/;"	f	typeref:typename:int
+edit_file_meta	client.c	/^    edit_file_meta,$/;"	e	enum:client_action_tag	file:
+edit_meta_dialogue	client.c	/^perform_action_result edit_meta_dialogue()$/;"	f	typeref:typename:perform_action_result
+exit_client	client.c	/^    exit_client,$/;"	e	enum:client_action_tag	file:
+extract_word_from_buf	utils.c	/^char *extract_word_from_buf(const char *buf, size_t bufsize, size_t *chars_read)$/;"	f	typeref:typename:char *
+fd	database.h	/^    int fd;$/;"	m	struct:add_file_result_tag	typeref:typename:int
+fd	server.c	/^    int fd;$/;"	m	struct:session_tag	typeref:typename:int	file:
+file_exists_and_is_available	database.c	/^static int file_exists_and_is_available(const char *filename, const char *dirname)$/;"	f	typeref:typename:int	file:
+file_lookup_result	database.h	/^} file_lookup_result;$/;"	t	typeref:enum:file_lookup_result_tag
+file_lookup_result_tag	database.h	/^typedef enum file_lookup_result_tag {$/;"	g
+file_metadata	database.h	/^} file_metadata;$/;"	t	typeref:struct:file_metadata_tag
+file_metadata_tag	database.h	/^typedef struct file_metadata_tag {$/;"	s
+file_metas	database.h	/^    file_metadata **file_metas;$/;"	m	struct:database_tag	typeref:typename:file_metadata **
+filename_ends_with_meta	database.c	/^static int filename_ends_with_meta(const char *filename, size_t len)$/;"	f	typeref:typename:int	file:
+filename_is_stripped	utils.c	/^int filename_is_stripped(const char *filename)$/;"	f	typeref:typename:int
+fill_metafile_dialogue	client.c	/^int fill_metafile_dialogue(p_message *msg, const char *filename)$/;"	f	typeref:typename:int
+fmd	database.h	/^    file_metadata *fmd;$/;"	m	struct:add_file_result_tag	typeref:typename:file_metadata *
+found	database.h	/^    found, not_found, no_access, incomplete$/;"	e	enum:file_lookup_result_tag
+free_metadata	database.c	/^static void free_metadata(file_metadata *fmd)$/;"	f	typeref:typename:void	file:
+free_user_data	database.c	/^static void free_user_data(user_data *ud)$/;"	f	typeref:typename:void	file:
+from_ip	server.c	/^    unsigned int from_ip;$/;"	m	struct:session_tag	typeref:typename:unsigned int	file:
+from_port	server.c	/^    unsigned short from_port;$/;"	m	struct:session_tag	typeref:typename:unsigned short	file:
+header	protocol.c	/^const char header[] = "BBS232";$/;"	v	typeref:typename:const char[]
+header_match_idx	protocol.h	/^    size_t header_match_idx;$/;"	m	struct:p_message_reader_tag	typeref:typename:size_t
+in_buf	server.c	/^    char in_buf[INBUFSIZE];$/;"	m	struct:session_tag	typeref:typename:char[]	file:
+in_buf_used	server.c	/^    size_t in_buf_used;$/;"	m	struct:session_tag	typeref:typename:size_t	file:
+in_packets_left	server.c	/^    long in_packets_left;$/;"	m	struct:session_tag	typeref:typename:long	file:
+in_reader	server.c	/^    p_message_reader in_reader;$/;"	m	struct:session_tag	typeref:typename:p_message_reader	file:
+incomplete	database.h	/^    found, not_found, no_access, incomplete$/;"	e	enum:file_lookup_result_tag
+int_bytes_read	protocol.h	/^    int int_bytes_read; \/\/ for cnt\/word len, -1 : not read delim yet$/;"	m	struct:p_message_reader_tag	typeref:typename:int
+int_handler	server.c	/^void int_handler(int s)$/;"	f	typeref:typename:void
+is_complete	database.h	/^    int is_complete;$/;"	m	struct:file_metadata_tag	typeref:typename:int
+is_for_all_users	database.h	/^    int is_for_all_users;$/;"	m	struct:file_metadata_tag	typeref:typename:int
+is_nl	utils.c	/^int is_nl(int c)$/;"	f	typeref:typename:int
+is_sep	utils.c	/^int is_sep(int c)$/;"	f	typeref:typename:int
+last_await_res	client.c	/^static await_server_msg_result last_await_res = asr_ok;$/;"	v	typeref:typename:await_server_msg_result	file:
+last_queried_filename	client.c	/^static char *last_queried_filename = NULL;$/;"	v	typeref:typename:char *	file:
+leave_note	client.c	/^    leave_note,$/;"	e	enum:client_action_tag	file:
+leave_note_dialogue	client.c	/^perform_action_result leave_note_dialogue()$/;"	f	typeref:typename:perform_action_result
+len	utils.h	/^    size_t len;$/;"	m	struct:byte_arr_tag	typeref:typename:size_t
+list_files	client.c	/^    list_files,$/;"	e	enum:client_action_tag	file:
+log_await_error	client.c	/^void log_await_error()$/;"	f	typeref:typename:void
+log_await_error_with_caption	client.c	/^void log_await_error_with_caption(const char *caption)$/;"	f	typeref:typename:void
+log_in	client.c	/^    log_in,$/;"	e	enum:client_action_tag	file:
+login_dialogue	client.c	/^perform_action_result login_dialogue() $/;"	f	typeref:typename:perform_action_result
+login_user_type	client.c	/^static user_type login_user_type = ut_none;$/;"	v	typeref:typename:user_type	file:
+ls	server.c	/^    int ls;$/;"	m	struct:server_tag	typeref:typename:int	file:
+main	client.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	server.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	test.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+make_session	server.c	/^session *make_session(int fd,$/;"	f	typeref:typename:session *
+match_alias	database.c	/^static int match_alias(char *word, metadata_parse_state cur_state)$/;"	f	typeref:typename:int	file:
+match_header	protocol.c	/^static size_t match_header(p_message_reader *reader, const char *str, size_t len)$/;"	f	typeref:typename:size_t	file:
+metadata_descr_alias	database.c	/^static const char metadata_descr_alias[] = "description:";$/;"	v	typeref:typename:const char[]	file:
+metadata_file_alias	database.c	/^static const char metadata_file_alias[] = "file:";$/;"	v	typeref:typename:const char[]	file:
+metadata_parse_state	database.c	/^} metadata_parse_state;$/;"	t	typeref:enum:metadata_parse_state_tag	file:
+metadata_parse_state_tag	database.c	/^typedef enum metadata_parse_state_tag {$/;"	g	file:
+metadata_users_alias	database.c	/^static const char metadata_users_alias[] = "access:";$/;"	v	typeref:typename:const char[]	file:
+metafile_extension	database.c	/^static const char metafile_extension[] = ".meta";$/;"	v	typeref:typename:const char[]	file:
+metafile_name_is_correct	database.c	/^static int metafile_name_is_correct(const char *metafile_name, const char *filename)$/;"	f	typeref:typename:int	file:
+metas_cap	database.h	/^    size_t metas_cnt, metas_cap;$/;"	m	struct:database_tag	typeref:typename:size_t
+metas_cnt	database.h	/^    size_t metas_cnt, metas_cap;$/;"	m	struct:database_tag	typeref:typename:size_t
+mfps_delim	database.c	/^    mfps_delim$/;"	e	enum:notes_file_parse_state_tag	file:
+mfps_note	database.c	/^    mfps_note,$/;"	e	enum:notes_file_parse_state_tag	file:
+mfps_user	database.c	/^    mfps_user,$/;"	e	enum:notes_file_parse_state_tag	file:
+mps_descr	database.c	/^    mps_descr,$/;"	e	enum:metadata_parse_state_tag	file:
+mps_error	database.c	/^    mps_error$/;"	e	enum:metadata_parse_state_tag	file:
+mps_file	database.c	/^    mps_file,$/;"	e	enum:metadata_parse_state_tag	file:
+mps_finished	database.c	/^    mps_finished,$/;"	e	enum:metadata_parse_state_tag	file:
+mps_users	database.c	/^    mps_users,$/;"	e	enum:metadata_parse_state_tag	file:
+msg	protocol.h	/^    p_message *msg;$/;"	m	struct:p_message_reader_tag	typeref:typename:p_message *
+name	database.h	/^    char *name;$/;"	m	struct:file_metadata_tag	typeref:typename:char *
+no_access	database.h	/^    found, not_found, no_access, incomplete$/;"	e	enum:file_lookup_result_tag
+not_found	database.h	/^    found, not_found, no_access, incomplete$/;"	e	enum:file_lookup_result_tag
+note	database.h	/^    char *note;$/;"	m	struct:read_note_result_tag	typeref:typename:char *
+notes_f	database.h	/^    FILE *notes_f;$/;"	m	struct:database_tag	typeref:typename:FILE *
+notes_file_parse_state	database.c	/^} notes_file_parse_state;$/;"	t	typeref:enum:notes_file_parse_state_tag	file:
+notes_file_parse_state_tag	database.c	/^typedef enum notes_file_parse_state_tag {$/;"	g	file:
+notes_path	database.h	/^    char *notes_path;$/;"	m	struct:database_tag	typeref:typename:char *
+notes_rel_path	database.c	/^static const char notes_rel_path[] = "\/notes.txt";$/;"	v	typeref:typename:const char[]	file:
+orig_mask	server.c	/^static sigset_t orig_mask;$/;"	v	typeref:typename:sigset_t	file:
+out_buf	server.c	/^    char *out_buf;$/;"	m	struct:session_tag	typeref:typename:char *	file:
+out_buf_len	server.c	/^    size_t out_buf_sent, out_buf_len;$/;"	m	struct:session_tag	typeref:typename:size_t	file:
+out_buf_sent	server.c	/^    size_t out_buf_sent, out_buf_len;$/;"	m	struct:session_tag	typeref:typename:size_t	file:
+out_packets_left	client.c	/^static long out_packets_left = 0;$/;"	v	typeref:typename:long	file:
+out_packets_left	server.c	/^    long out_packets_left;$/;"	m	struct:session_tag	typeref:typename:long	file:
+output_available_actions	client.c	/^void output_available_actions()$/;"	f	typeref:typename:void
+output_word_arr	client.c	/^void output_word_arr(const char **arr, size_t size)$/;"	f	typeref:typename:void
+p_add_string_to_message	protocol.c	/^int p_add_string_to_message(p_message *msg, const char *str)$/;"	f	typeref:typename:int
+p_add_word_to_message	protocol.c	/^int p_add_word_to_message(p_message *msg, const char *word, size_t len)$/;"	f	typeref:typename:int
+p_construct_sendable_message	protocol.c	/^p_sendable_message p_construct_sendable_message(p_message *msg)$/;"	f	typeref:typename:p_sendable_message
+p_create_message	protocol.c	/^p_message *p_create_message(p_role role, p_type type)$/;"	f	typeref:typename:p_message *
+p_deinit_reader	protocol.c	/^void p_deinit_reader(p_message_reader *reader)$/;"	f	typeref:typename:void
+p_deinit_sendable_message	protocol.c	/^void p_deinit_sendable_message(p_sendable_message *msg)$/;"	f	typeref:typename:void
+p_free_message	protocol.c	/^void p_free_message(p_message *msg)$/;"	f	typeref:typename:void
+p_init_reader	protocol.c	/^void p_init_reader(p_message_reader *reader)$/;"	f	typeref:typename:void
+p_message	protocol.h	/^} p_message;$/;"	t	typeref:struct:p_message_tag
+p_message_reader	protocol.h	/^} p_message_reader;$/;"	t	typeref:struct:p_message_reader_tag
+p_message_reader_tag	protocol.h	/^typedef struct p_message_reader_tag {$/;"	s
+p_message_tag	protocol.h	/^typedef struct p_message_tag {$/;"	s
+p_read_state	protocol.h	/^} p_read_state;$/;"	t	typeref:enum:p_read_state_tag
+p_read_state_tag	protocol.h	/^typedef enum p_read_state_tag { $/;"	g
+p_reader_is_live	protocol.c	/^int p_reader_is_live(p_message_reader *reader)$/;"	f	typeref:typename:int
+p_reader_process_str	protocol.c	/^p_reader_processing_res p_reader_process_str(p_message_reader *reader, $/;"	f	typeref:typename:p_reader_processing_res
+p_reader_processing_res	protocol.h	/^} p_reader_processing_res;$/;"	t	typeref:enum:p_reader_processing_res_tag
+p_reader_processing_res_tag	protocol.h	/^typedef enum p_reader_processing_res_tag {$/;"	g
+p_reset_reader	protocol.c	/^void p_reset_reader(p_message_reader *reader)$/;"	f	typeref:typename:void
+p_role	protocol.h	/^} p_role;$/;"	t	typeref:enum:p_role_tag
+p_role_tag	protocol.h	/^typedef enum p_role_tag { $/;"	g
+p_sendable_message	protocol.h	/^typedef byte_arr p_sendable_message;$/;"	t	typeref:typename:byte_arr
+p_type	protocol.h	/^} p_type;$/;"	t	typeref:enum:p_type_tag
+p_type_tag	protocol.h	/^typedef enum p_type_tag { $/;"	g
+p_type_to_user_type	protocol.c	/^user_type p_type_to_user_type(p_type pt)$/;"	f	typeref:typename:user_type
+par_continue	client.c	/^    par_continue,$/;"	e	enum:perform_action_result_tag	file:
+par_error	client.c	/^    par_error$/;"	e	enum:perform_action_result_tag	file:
+par_ok	client.c	/^    par_ok,$/;"	e	enum:perform_action_result_tag	file:
+parse_cnt	protocol.c	/^static size_t parse_cnt(p_message_reader *reader, const char *str, size_t len)$/;"	f	typeref:typename:size_t	file:
+parse_content	protocol.c	/^static size_t parse_content(p_message_reader *reader, const char *str, size_t len)$/;"	f	typeref:typename:size_t	file:
+parse_data_dir	database.c	/^static int parse_data_dir(database *db)$/;"	f	typeref:typename:int	file:
+parse_meta_file	database.c	/^static file_metadata *parse_meta_file(const char *filename, const char *dirpath)$/;"	f	typeref:typename:file_metadata *	file:
+parse_notes_file	database.c	/^static int parse_notes_file(database *db)$/;"	f	typeref:typename:int	file:
+parse_passwd_file	database.c	/^static int parse_passwd_file(database *db, const char *path)$/;"	f	typeref:typename:int	file:
+passwd	database.h	/^    char *passwd;$/;"	m	struct:user_data_tag	typeref:typename:char *
+passwd_f	database.h	/^    FILE *passwd_f;$/;"	m	struct:database_tag	typeref:typename:FILE *
+passwd_rel_path	database.c	/^static const char passwd_rel_path[] = "\/passwd.txt";$/;"	v	typeref:typename:const char[]	file:
+perform_action	client.c	/^perform_action_result perform_action(client_action action)$/;"	f	typeref:typename:perform_action_result
+perform_action_result	client.c	/^} perform_action_result; $/;"	t	typeref:enum:perform_action_result_tag	file:
+perform_action_result_tag	client.c	/^typedef enum perform_action_result_tag {$/;"	g	file:
+post_file	client.c	/^    post_file,$/;"	e	enum:client_action_tag	file:
+post_file_dialogue	client.c	/^perform_action_result post_file_dialogue()$/;"	f	typeref:typename:perform_action_result
+poster_action_names	client.c	/^static const char *poster_action_names[NUM_POSTER_ACTIONS] = { "post" };$/;"	v	typeref:typename:const char * []	file:
+poster_actions	client.c	/^static const client_action poster_actions[] = { post_file };$/;"	v	typeref:typename:const client_action[]	file:
+poster_mark	types.c	/^const char poster_mark[] = "&";$/;"	v	typeref:typename:const char[]
+prepare_next_file_chunk_for_output	server.c	/^void prepare_next_file_chunk_for_output(session *sess)$/;"	f	typeref:typename:void
+printf_err	debug.c	/^void printf_err(const char *format, ...)$/;"	f	typeref:typename:void
+process_action_response	client.c	/^int process_action_response(client_action action)$/;"	f	typeref:typename:int
+process_add_user_response	client.c	/^int process_add_user_response()$/;"	f	typeref:typename:int
+process_delete_file_response	client.c	/^int process_delete_file_response()$/;"	f	typeref:typename:int
+process_delim_or_endc	protocol.c	/^static void process_delim_or_endc(p_message_reader *reader, char c)$/;"	f	typeref:typename:void	file:
+process_edit_metafile_response	client.c	/^int process_edit_metafile_response()$/;"	f	typeref:typename:int
+process_file_list_response	client.c	/^int process_file_list_response()$/;"	f	typeref:typename:int
+process_leave_note_response	client.c	/^int process_leave_note_response()$/;"	f	typeref:typename:int
+process_login_response	client.c	/^int process_login_response()$/;"	f	typeref:typename:int
+process_post_file_response	client.c	/^int process_post_file_response()$/;"	f	typeref:typename:int
+process_query_file_response	client.c	/^int process_query_file_response()$/;"	f	typeref:typename:int
+process_read_note_response	client.c	/^int process_read_note_response()$/;"	f	typeref:typename:int
+query_file	client.c	/^    query_file,$/;"	e	enum:client_action_tag	file:
+query_file_dialogue	client.c	/^perform_action_result query_file_dialogue()$/;"	f	typeref:typename:perform_action_result
+r_client	protocol.h	/^    r_client$/;"	e	enum:p_role_tag
+r_server	protocol.h	/^    r_server, $/;"	e	enum:p_role_tag
+r_unknown	protocol.h	/^    r_unknown,$/;"	e	enum:p_role_tag
+read_note	client.c	/^    read_note,$/;"	e	enum:client_action_tag	file:
+read_note_result	database.h	/^} read_note_result;$/;"	t	typeref:struct:read_note_result_tag
+read_note_result_tag	database.h	/^typedef struct read_note_result_tag {$/;"	s
+read_word_to_buf	database.c	/^static int read_word_to_buf(FILE *f, char *buf, size_t bufsize, char sep)$/;"	f	typeref:typename:int	file:
+reader	client.c	/^static p_message_reader reader = {0};$/;"	v	typeref:typename:p_message_reader	file:
+real_user_types	types.c	/^const user_type real_user_types[USER_TYPES_CNT] = { ut_regular, ut_poster, ut_admin };$/;"	v	typeref:typename:const user_type[]
+recieved_int	server.c	/^static volatile sig_atomic_t recieved_int = 0;$/;"	v	typeref:typename:volatile sig_atomic_t	file:
+reg_action_names	client.c	/^static const char *reg_action_names[NUM_REG_ACTIONS] = {$/;"	v	typeref:typename:const char * []	file:
+reg_actions	client.c	/^static const client_action reg_actions[] = {$/;"	v	typeref:typename:const client_action[]	file:
+resize_dynamic_arr	utils.c	/^int resize_dynamic_arr(void **arr, size_t size, size_t *cnt, size_t *cap,$/;"	f	typeref:typename:int
+return_defer	utils.h	/^#define return_defer(/;"	d
+role	protocol.h	/^    p_role role;$/;"	m	struct:p_message_tag	typeref:typename:p_role
+rpr_done	protocol.h	/^    rpr_done, rpr_in_progress, rpr_error$/;"	e	enum:p_reader_processing_res_tag
+rpr_error	protocol.h	/^    rpr_done, rpr_in_progress, rpr_error$/;"	e	enum:p_reader_processing_res_tag
+rpr_in_progress	protocol.h	/^    rpr_done, rpr_in_progress, rpr_error$/;"	e	enum:p_reader_processing_res_tag
+rs_cnt	protocol.h	/^    rs_cnt,$/;"	e	enum:p_read_state_tag
+rs_content	protocol.h	/^    rs_content,$/;"	e	enum:p_read_state_tag
+rs_empty	protocol.h	/^    rs_empty,$/;"	e	enum:p_read_state_tag
+rs_error	protocol.h	/^    rs_error,$/;"	e	enum:p_read_state_tag
+rs_finished	protocol.h	/^    rs_finished$/;"	e	enum:p_read_state_tag
+rs_header	protocol.h	/^    rs_header,$/;"	e	enum:p_read_state_tag
+rs_role	protocol.h	/^    rs_role,$/;"	e	enum:p_read_state_tag
+rs_type	protocol.h	/^    rs_type,$/;"	e	enum:p_read_state_tag
+search_word_arr	client.c	/^int search_word_arr(const char **arr, size_t size, const char *query)$/;"	f	typeref:typename:int
+send_empty_message	client.c	/^void send_empty_message(p_type type) $/;"	f	typeref:typename:void
+send_message	client.c	/^int send_message(p_message *msg)$/;"	f	typeref:typename:int
+serv	server.c	/^static server serv = {0};$/;"	v	typeref:typename:server	file:
+serv_buf_used	client.c	/^static size_t serv_buf_used = 0;$/;"	v	typeref:typename:size_t	file:
+serv_read_buf	client.c	/^static char serv_read_buf[SERV_READ_BUFSIZE];$/;"	v	typeref:typename:char[]	file:
+server	server.c	/^} server;$/;"	t	typeref:struct:server_tag	file:
+server_accept_client	server.c	/^void server_accept_client()$/;"	f	typeref:typename:void
+server_close_session	server.c	/^void server_close_session(int sd)$/;"	f	typeref:typename:void
+server_deinit	server.c	/^void server_deinit()$/;"	f	typeref:typename:void
+server_init	server.c	/^int server_init(int port)$/;"	f	typeref:typename:int
+server_tag	server.c	/^typedef struct server_tag {$/;"	s	file:
+session	server.c	/^} session;$/;"	t	typeref:struct:session_tag	file:
+session_add_user	server.c	/^void session_add_user(session *sess)$/;"	f	typeref:typename:void
+session_edit_file_meta	server.c	/^void session_edit_file_meta(session *sess)$/;"	f	typeref:typename:void
+session_free_out_buf	server.c	/^void session_free_out_buf(session *sess)$/;"	f	typeref:typename:void
+session_handle_login	server.c	/^void session_handle_login(session *sess)$/;"	f	typeref:typename:void
+session_parse_recv_packet	server.c	/^void session_parse_recv_packet(session *sess)$/;"	f	typeref:typename:void
+session_parse_regular_message	server.c	/^void session_parse_regular_message(session *sess)$/;"	f	typeref:typename:void
+session_post_empty_message	server.c	/^void session_post_empty_message(session *sess, p_type type) $/;"	f	typeref:typename:void
+session_post_file_list	server.c	/^void session_post_file_list(session *sess)$/;"	f	typeref:typename:void
+session_post_init_message	server.c	/^void session_post_init_message(session *sess)$/;"	f	typeref:typename:void
+session_post_msg	server.c	/^void session_post_msg(session *sess, p_message *msg)$/;"	f	typeref:typename:void
+session_process_check_user	server.c	/^void session_process_check_user(session *sess)$/;"	f	typeref:typename:void
+session_process_file_check	server.c	/^void session_process_file_check(session *sess)$/;"	f	typeref:typename:void
+session_process_file_post	server.c	/^void session_process_file_post(session *sess)$/;"	f	typeref:typename:void
+session_process_file_query	server.c	/^void session_process_file_query(session *sess)$/;"	f	typeref:typename:void
+session_read	server.c	/^int session_read(session *sess)$/;"	f	typeref:typename:int
+session_state	server.c	/^} session_state;$/;"	t	typeref:enum:session_state_tag	file:
+session_state_tag	server.c	/^typedef enum session_state_tag { $/;"	g	file:
+session_store_note	server.c	/^void session_store_note(session *sess) {$/;"	f	typeref:typename:void
+session_tag	server.c	/^typedef struct session_tag {$/;"	s	file:
+session_try_delete_file	server.c	/^void session_try_delete_file(session *sess)$/;"	f	typeref:typename:void
+session_try_pop_next_note	server.c	/^void session_try_pop_next_note(session *sess)$/;"	f	typeref:typename:void
+session_write	server.c	/^int session_write(session *sess)$/;"	f	typeref:typename:int
+sessions	server.c	/^    session **sessions;$/;"	m	struct:server_tag	typeref:typename:session **	file:
+sessions_size	server.c	/^    size_t sessions_size;$/;"	m	struct:server_tag	typeref:typename:size_t	file:
+set_up_sigint	server.c	/^void set_up_sigint()$/;"	f	typeref:typename:void
+sock	client.c	/^static int sock = -1;$/;"	v	typeref:typename:int	file:
+sstate_await	server.c	/^    sstate_await, $/;"	e	enum:session_state_tag	file:
+sstate_error	server.c	/^    sstate_error $/;"	e	enum:session_state_tag	file:
+sstate_file_recv	server.c	/^    sstate_file_recv, $/;"	e	enum:session_state_tag	file:
+sstate_file_transfer	server.c	/^    sstate_file_transfer, $/;"	e	enum:session_state_tag	file:
+sstate_finish	server.c	/^    sstate_finish, $/;"	e	enum:session_state_tag	file:
+state	protocol.h	/^    p_read_state state;$/;"	m	struct:p_message_reader_tag	typeref:typename:p_read_state
+state	server.c	/^    session_state state;$/;"	m	struct:session_tag	typeref:typename:session_state	file:
+store_reader_cur_word	protocol.c	/^static void store_reader_cur_word(p_message_reader *reader)$/;"	f	typeref:typename:void	file:
+str	utils.h	/^    char *str;$/;"	m	struct:byte_arr_tag	typeref:typename:char *
+strings_are_equal	utils.c	/^int strings_are_equal(const char *str1, const char *str2)$/;"	f	typeref:typename:int
+strip_nl	utils.c	/^int strip_nl(char *str)$/;"	f	typeref:typename:int
+stripped_filename	utils.c	/^const char *stripped_filename(const char *filename)$/;"	f	typeref:typename:const char *
+t_unknown	protocol.h	/^    t_unknown,$/;"	e	enum:p_type_tag
+tc_add_user	protocol.h	/^    tc_add_user,$/;"	e	enum:p_type_tag
+tc_ask_for_next_note	protocol.h	/^    tc_ask_for_next_note,$/;"	e	enum:p_type_tag
+tc_delete_file	protocol.h	/^    tc_delete_file,$/;"	e	enum:p_type_tag
+tc_edit_file_meta	protocol.h	/^    tc_edit_file_meta,$/;"	e	enum:p_type_tag
+tc_file_check	protocol.h	/^    tc_file_check,$/;"	e	enum:p_type_tag
+tc_file_query	protocol.h	/^    tc_file_query,$/;"	e	enum:p_type_tag
+tc_leave_note	protocol.h	/^    tc_leave_note,$/;"	e	enum:p_type_tag
+tc_list_files	protocol.h	/^    tc_list_files,$/;"	e	enum:p_type_tag
+tc_login	protocol.h	/^    tc_login,$/;"	e	enum:p_type_tag
+tc_post_file	protocol.h	/^    tc_post_file,$/;"	e	enum:p_type_tag
+tc_post_file_packet	protocol.h	/^    tc_post_file_packet,$/;"	e	enum:p_type_tag
+tc_user_check	protocol.h	/^    tc_user_check,$/;"	e	enum:p_type_tag
+title	server.c	/^static const char title[] = $/;"	v	typeref:typename:const char[]	file:
+tot_w_len	protocol.h	/^    size_t tot_w_len;$/;"	m	struct:p_message_tag	typeref:typename:size_t
+truncate_notes_file	database.c	/^static int truncate_notes_file(database *db)$/;"	f	typeref:typename:int	file:
+try_get_client_action_by_name	client.c	/^int try_get_client_action_by_name(const char *name, client_action *out)$/;"	f	typeref:typename:int
+try_read_item_from_stdin	client.c	/^int try_read_item_from_stdin(char *buf, size_t bufsize, int can_be_empty,$/;"	f	typeref:typename:int
+ts_file_deleted	protocol.h	/^    ts_file_deleted,$/;"	e	enum:p_type_tag
+ts_file_edit_done	protocol.h	/^    ts_file_edit_done,$/;"	e	enum:p_type_tag
+ts_file_exists	protocol.h	/^    ts_file_exists,$/;"	e	enum:p_type_tag
+ts_file_list_response	protocol.h	/^    ts_file_list_response,$/;"	e	enum:p_type_tag
+ts_file_not_found	protocol.h	/^    ts_file_not_found,$/;"	e	enum:p_type_tag
+ts_file_packet	protocol.h	/^    ts_file_packet,$/;"	e	enum:p_type_tag
+ts_file_restricted	protocol.h	/^    ts_file_restricted,$/;"	e	enum:p_type_tag
+ts_init	protocol.h	/^    ts_init,$/;"	e	enum:p_type_tag
+ts_login_admin	protocol.h	/^    ts_login_admin,$/;"	e	enum:p_type_tag
+ts_login_failed	protocol.h	/^    ts_login_failed,$/;"	e	enum:p_type_tag
+ts_login_poster	protocol.h	/^    ts_login_poster,$/;"	e	enum:p_type_tag
+ts_login_success	protocol.h	/^    ts_login_success,$/;"	e	enum:p_type_tag
+ts_mod_fail	protocol.h	/^    ts_mod_fail$/;"	e	enum:p_type_tag
+ts_no_notes_left	protocol.h	/^    ts_no_notes_left,$/;"	e	enum:p_type_tag
+ts_note_done	protocol.h	/^    ts_note_done,$/;"	e	enum:p_type_tag
+ts_ready_to_recv	protocol.h	/^    ts_ready_to_recv,$/;"	e	enum:p_type_tag
+ts_show_and_rm_note	protocol.h	/^    ts_show_and_rm_note,$/;"	e	enum:p_type_tag
+ts_start_file_transfer	protocol.h	/^    ts_start_file_transfer,$/;"	e	enum:p_type_tag
+ts_user_added	protocol.h	/^    ts_user_added,$/;"	e	enum:p_type_tag
+ts_user_does_not_exist	protocol.h	/^    ts_user_does_not_exist,$/;"	e	enum:p_type_tag
+ts_user_exists	protocol.h	/^    ts_user_exists,$/;"	e	enum:p_type_tag
+type	database.h	/^    db_modification_result type;$/;"	m	struct:add_file_result_tag	typeref:typename:db_modification_result
+type	database.h	/^    user_type type;$/;"	m	struct:user_data_tag	typeref:typename:user_type
+type	protocol.h	/^    p_type type;$/;"	m	struct:p_message_tag	typeref:typename:p_type
+user_data	database.h	/^} user_data;$/;"	t	typeref:struct:user_data_tag
+user_data_tag	database.h	/^typedef struct user_data_tag {$/;"	s
+user_datas	database.h	/^    user_data **user_datas;$/;"	m	struct:database_tag	typeref:typename:user_data **
+user_type	types.h	/^} user_type;$/;"	t	typeref:enum:user_type_tag
+user_type_names	types.c	/^const char *user_type_names[USER_TYPES_CNT] = { "regular", "poster", "admin" };$/;"	v	typeref:typename:const char * []
+user_type_tag	types.h	/^typedef enum user_type_tag { \/\/ used in increasing order$/;"	g
+user_type_to_p_type	protocol.c	/^p_type user_type_to_p_type(user_type ut)$/;"	f	typeref:typename:p_type
+username_is_new	database.c	/^static int username_is_new(user_data **datas, const char *new_usernm)$/;"	f	typeref:typename:int	file:
+usernm	database.h	/^    char *usernm;$/;"	m	struct:read_note_result_tag	typeref:typename:char *
+usernm	database.h	/^    char *usernm;$/;"	m	struct:user_data_tag	typeref:typename:char *
+usernm	server.c	/^    char *usernm;$/;"	m	struct:session_tag	typeref:typename:char *	file:
+users	database.h	/^    char **users;$/;"	m	struct:file_metadata_tag	typeref:typename:char **
+users_cap	database.h	/^    size_t users_cnt, users_cap;$/;"	m	struct:database_tag	typeref:typename:size_t
+users_cnt	database.h	/^    size_t users_cnt, users_cap;$/;"	m	struct:database_tag	typeref:typename:size_t
+ut	server.c	/^    user_type ut;$/;"	m	struct:session_tag	typeref:typename:user_type	file:
+ut_admin	types.h	/^    ut_admin = 3$/;"	e	enum:user_type_tag
+ut_none	types.h	/^    ut_none = 0,$/;"	e	enum:user_type_tag
+ut_poster	types.h	/^    ut_poster = 2,$/;"	e	enum:user_type_tag
+ut_regular	types.h	/^    ut_regular = 1,$/;"	e	enum:user_type_tag
+valid_roles	protocol.c	/^const p_role valid_roles[] = { r_server, r_client };$/;"	v	typeref:typename:const p_role[]
+valid_types	protocol.c	/^const p_type valid_types[] = {$/;"	v	typeref:typename:const p_type[]
+wcap	protocol.h	/^    size_t wlen, wcap;$/;"	m	struct:p_message_reader_tag	typeref:typename:size_t
+wlen	protocol.h	/^    size_t wlen, wcap;$/;"	m	struct:p_message_reader_tag	typeref:typename:size_t
+words	protocol.h	/^    byte_arr *words;$/;"	m	struct:p_message_tag	typeref:typename:byte_arr *

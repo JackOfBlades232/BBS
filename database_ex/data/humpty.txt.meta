@@ -1,0 +1,3 @@
+file: humpty.txt
+description: A simple text
+access: *
