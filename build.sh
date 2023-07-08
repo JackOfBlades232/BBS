@@ -1,7 +1,7 @@
 #!/bin/sh
 
-#DEFINES=""
-DEFINES="-D DEBUG"
+DEFINES=""
+#DEFINES="-D DEBUG"
 
 gcc -Wall -g -c $DEFINES types.c
 gcc -Wall -g -c $DEFINES database.c

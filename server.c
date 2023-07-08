@@ -723,7 +723,6 @@ void daemonize_self()
     open("/dev/null", O_RDONLY);
     open("/dev/null", O_WRONLY);
     open("/dev/null", O_WRONLY);
-    chdir("/");
     pid = fork();
     if (pid > 0)
         exit(0);
@@ -761,20 +760,21 @@ int main(int argc, char **argv)
         return_defer(1);
     }
 
+#ifndef DEBUG
+    daemonize_self();
+#endif
+
     if (!db_init(&db, argv[2])) {
         fprintf(stderr, "Could not parse database in folder\n");
         return_defer(1);
     }
+
     if (!server_init(port)) {
         fprintf(stderr, "Server init failed\n");
         return_defer(2);
     }
 
     set_up_sigint();
-
-#ifndef DEBUG
-    daemonize_self();
-#endif
 
     for (;;) {
         fd_set readfds, writefds;
